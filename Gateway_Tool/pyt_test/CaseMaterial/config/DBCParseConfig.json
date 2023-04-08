@@ -1,0 +1,28 @@
+{
+    "file.prefix": "signal",
+    "file.name": {
+        "binutilHeaderName": "signal_binutil.h",
+        "binutilSourceName": "signal_binutil.c",
+        "definitionHeaderName": "signal_definition.h",
+        "definitionSourceName": "signal_definition.c",
+        "configHeaderName": "signal_config.h",
+        "monitorHeaderName": "signal_monitor.h",
+        "monitorSourceName": "signal_monitor.c"
+    },
+    "code.config": {
+        "unpack-before-act": true,
+        "unpack-after-act": true,
+        "pack-before-act": true,
+        "pack-after-act": true,
+        "can-monitor": true,
+        "frame-only": false,
+        "Node-Type": "GateWay",
+        "GateWay-Config-Merge": true
+    },
+    "dbc.config": {
+        "signals-start-position-format": {
+            "motorola": "Motorola forward LSB",
+            "intel": "Intel standard"
+        }
+    }
+}

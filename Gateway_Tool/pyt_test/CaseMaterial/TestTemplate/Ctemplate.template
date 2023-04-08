@@ -1,0 +1,3 @@
+int biaoding_num = ${CALIBRATION_NUM1}; // 有9个标定位。
+int biaoding_num = ${CALIBRATION_NUM2}; // 有9个标定位。
+int biaoding_num = ${CALIBRATION_NUM3}; // 有9个标定位。

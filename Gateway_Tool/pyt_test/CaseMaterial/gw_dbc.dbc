@@ -1,0 +1,90 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: OTHER_NODE New_Node_3 IC
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ New_Signal_3 : 0|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2365484271 New_Message_5: 8 OTHER_NODE
+ SG_ New_Signal_5 : 11|10@0- (1,0) [-512|511] ""  IC
+
+BO_ 2566844705 BCM_CCVS: 8 IC
+ SG_ New_Signal_3 : 8|3@1- (1,0) [-4|3] ""  OTHER_NODE
+
+BO_ 2566844672 EMS_CCVS: 8 OTHER_NODE
+ SG_ New_Signal_4 : 24|8@1- (1,0) [0|0] ""  IC
+ SG_ New_Signal_3 : 16|8@1- (1,0) [0|0] ""  IC
+ SG_ New_Signal_2 : 8|8@1- (1,0) [0|0] ""  IC
+ SG_ New_Signal_1 : 0|8@1- (1,0) [0|0] ""  IC
+
+BO_ 2365484270 IC_TCO1: 8 IC
+ SG_ New_Signal_5 : 0|8@1- (1,0) [-128|127] "" Vector__XXX
+ SG_ New_Signal_4 : 11|7@0+ (2,0) [0|254] ""  OTHER_NODE
+
+BO_ 2566844695 IC_CCVS1: 8 IC
+ SG_ New_Signal_13 : 31|8@0+ (1,10) [10|265] ""  OTHER_NODE
+ SG_ New_Signal_12 : 23|8@0+ (0.5,0) [0|127.5] ""  OTHER_NODE
+ SG_ New_Signal_11 : 15|8@0+ (1,0) [0|255] ""  OTHER_NODE
+ SG_ New_Signal_10 : 42|6@0- (1,0) [-32|31] "asd"  OTHER_NODE
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ BO_ 2566844705 "comments";
+CM_ BO_ 2566844672 "ȷʵ22";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_ "GenMsgCycleTime" BO_ 2365484271 100;
+BA_ "GenMsgCycleTime" BO_ 2566844705 100;
+BA_ "GenMsgCycleTime" BO_ 2566844672 100;
+BA_ "GenMsgCycleTime" BO_ 2365484270 100;
+BA_ "GenMsgCycleTime" BO_ 2566844695 100;
+

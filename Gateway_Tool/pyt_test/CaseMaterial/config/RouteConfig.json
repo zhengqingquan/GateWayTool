@@ -1,0 +1,25 @@
+{
+    "CHANNEL_MAPPING": {
+        "PT_CAN": 0,
+        "H_CAN": 0,
+        "D_CAN": 1,
+        "T_CAN": 2,
+        "B_CAN": 3,
+        "I_CAN": 4,
+        "C_CAN": 5
+    },
+    "DLC": {
+        "3": 3,
+        "8": 8,
+        "17": 17,
+        "19": 19,
+        "39": 39
+    },
+    "ATTRIBUTE_DICT": {
+        "source": 0,
+        "id": 1,
+        "dlc": 2,
+        "target": 3,
+        "time": 4
+    }
+}

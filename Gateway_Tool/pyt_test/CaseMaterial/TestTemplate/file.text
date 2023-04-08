@@ -1,0 +1,12 @@
+#include <aaa.h>
+#include <bbc.h>
+#include <bbd.h>
+#include <nostd.h>
+#include <std.h>
+
+#include "a"
+#include "b"
+#include "c"
+#include "d"
+
+

@@ -1,0 +1,319 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: IC_C IC_B Sender
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ New_Signal_188 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1277 FBTC_MP5_Mode: 8 Vector__XXX
+ SG_ MP5_VehiclePowerSwitch : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_DriveModeSET : 5|4@0+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 892 FBTC_AC_Front2: 8 Vector__XXX
+ SG_ AC_FrontACStartReq : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ AC_FrontHeaterInletTempSet : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ AC_FrontEvapTempTarget : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ AC_InCarTemp : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1023 FCTB_CBS2: 8 Vector__XXX
+ SG_ CWB_FrontWiperAdjustment : 12|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ CWB_FrontWiperSwitch : 15|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ CWB_DimmingSwitch : 6|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CWB_PreWashingSwitch : 4|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ CWB_TurnSwitch : 2|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 1043 FBTC_MP5_6: 8 Vector__XXX
+ SG_ MP5_DriveModeRemSwitch : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Mp5_TSRSwitch : 2|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_SayHi : 61|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_SerchCar : 59|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_Open_Close : 57|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MFS_AVASSystemSwitch : 19|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_EnergyReturnIntensionSet : 17|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Mp5_ISA_Switch : 4|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Mp5_LKA_main_SW : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Mp5_LKA_Mode : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 870 FBTC_GW_MP5_2: 8 Vector__XXX
+ SG_ MP5_FCW_Sensitivity : 59|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_ESCOFFSwitch : 55|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_AVHbutton : 57|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_FCWSwitch : 51|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_AEBSwitch : 49|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_BrightnessChange : 42|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MP5_PM2_5_EnableSwitch : 39|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_HU_ULS_BSD_ACTIVATION : 35|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_HU_ULS_FLK_ACTIVATION : 33|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_Language_Set : 18|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MP5_AutoWindLockSe : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MP5_AutoWindUnlockSet : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MP5_AutoWindKeyPressSet : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MP5_HU_SlotUserSelected : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ MP5_WorkSt : 4|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_GearshiftRemindFunctionES : 2|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ MP5_DDS_resetbutton_request : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 853 FCTB_GW_VCUtoDisplay: 8 Vector__XXX
+ SG_ VCU_BrakeEnergyReturnIntension : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ VCU_DCDCworkSt : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VCU_EnergyRecoveryGearSwitch : 44|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ VCU_CruisingRange : 21|10@0+ (1,0) [0|1023] "" Vector__XXX
+ SG_ VCU_ParkLockStatus : 27|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VCU_PumpInvalidWarning : 23|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ VCU_PerformanceLimitedWarning : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCU_SystemFaultWarning : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ VCU_Gear : 12|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ VCU_DrivingPermit : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 802 FBTC_GW_AC1: 8 Vector__XXX
+ SG_ AC_AmbTemp : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1242 FBTC_GW_MP5_TBOX_Time: 8 Vector__XXX
+ SG_ MP5_TBOX_Time_Valid : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MP5_TBOX_Time_YearMark : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ MP5_TBOX_Time_Second : 37|6@0+ (1,0) [0|63] "" Vector__XXX
+ SG_ MP5_TBOX_Time_Minute : 29|6@0+ (1,0) [0|63] "" Vector__XXX
+ SG_ MP5_TBOX_Time_Hour : 20|5@0+ (1,0) [0|31] "" Vector__XXX
+ SG_ MP5_TBOX_Time_Date : 12|5@0+ (1,0) [0|31] "" Vector__XXX
+ SG_ MP5_TBOX_Time_Month : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ MP5_TBOX_Time_Year : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 833 FBTC_GW_IBCM6: 8 Vector__XXX
+ SG_ BCM_BattVolt : 7|10@0+ (1,0) [0|1023] "" Vector__XXX
+
+BO_ 828 FBTC_GW_IBCM3: 8 Vector__XXX
+ SG_ BCM_BackWiperParkst : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_FrontWiperSwitchSt : 15|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_BrakeLampStatus : 47|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_CHMSLStatus : 45|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_DoorLockSt : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_IgnitionSt : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 570 FBTC_GW_IBCM2: 8 Vector__XXX
+ SG_ BCM_TailgateUnlockInform : 63|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_TailgateOpenSwitch : 62|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_FrontWiper_AUTO : 61|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_LowBeam_AUTO : 59|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_MirrorFoldSwitchSt : 55|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_SunShadeStatus : 53|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RoofWindowStatus : 52|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RRWindowStatus : 51|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RFWindowStatus : 50|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RLWindowStatus : 49|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_LFWindowStatus : 48|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RLS_AUTO_SwitchSt : 46|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_FrontWiperWorkSt : 41|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_FollowMeHomeSt : 45|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ BCM_RecentlyLockType : 39|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ BCM_RecentlyUnlockType : 35|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ BCM_FRTurnlightFbSt : 31|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RRTurnlightFbSt : 30|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_FLTurnlightFbSt : 29|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RLTurnlightFbSt : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_LampWashSt : 27|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_EngHoodUnlockWarming : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_ReverseLampSwitchSt : 25|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_RightTurnSwitchrSt : 23|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_LeftTurnSwitchSt : 21|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ BCM_Lock_LED_Output : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_AutoLockFunctionSt : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RearWindowHeatSt : 17|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_FuleTap_LockStatus : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_LRDoorSwitchSt : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RRDoorSwitchSt : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RFDoorSwitchSt : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_LFDoorSwitchSt : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_frontFogligthSt : 10|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_BackFogligthSt : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_LowBeamStatus : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_HighBeamStatus : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_HazardLampSt : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_PositionLampSt : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RightligthFaultSt : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_RightligthSt : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_LetfligthFaultSt : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_LetfligthSt : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ BCM_TrunkSt : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 780 FCTB_ACU_Crash: 8 Vector__XXX
+ SG_ RollingCounter30C : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ACU_CrashoutValid : 18|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACU_CheckSum_ACU : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ACU_PassengerBeltSwitchSig : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACU_DriverBeltSwitchSig : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACU_AirbagLampSts : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ACU_Crashout : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 165 FCTB_TAS_SAS_Info: 8 Vector__XXX
+ SG_ TAS_SAS_SteeringAngle : 7|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 794 FCTB_ESC_FPB1: 8 Vector__XXX
+ SG_ ESC_CheckSum_EPB : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ESC_RollingCount_EPB : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ESC_PbcActuatorStateRight : 47|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ ESC_PbcActuatorStateLeft : 44|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ ESC_CurrentOnLeftRearCaliper : 29|10@0+ (1,0) [0|1023] "" Vector__XXX
+ SG_ ESC_CurrentOnRightRearCaliper : 23|10@0+ (1,0) [0|1023] "" Vector__XXX
+ SG_ ESC_EPBStatus : 10|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ ESC_EPBSwitchStaticsValidity : 11|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_EPBSwitchStatics : 13|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_EPBWarningIndicationReq : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_EPBCruiseControlCancel : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_EPBDisplayMessageReq : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 1073 FCTB_ESC7: 8 Vector__XXX
+ SG_ ESC_DDSSystemStatus : 15|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ESC_ITPMSWarningStatus : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_ITPMSMalfunctionStatus : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_ITPMSFrontRightPressureWarn : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_ITPMSFrontLeftPressureWarn : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_ITPMSRearRightPressureWarnin : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_ITPMSRearLeftPressureWarning : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 291 FCTB_ESC6: 8 Vector__XXX
+ SG_ ESC_CheckSum_ESC6 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ESC_RollingCount_ESC6 : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ESC_cdpAvailable : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_cdpActive : 42|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_HBAStatus : 47|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_VehicleHoldStatus : 37|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_VehDrivingDirection : 31|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_DynamicSlope : 29|6@0+ (1,0) [0|63] "" Vector__XXX
+ SG_ ESC_EmergencyBrakeLightReq : 15|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_BrakingEffort : 14|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_MSRinRegulation : 13|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_BrakeReleasedFailsafe : 12|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_UnfilteredYawRate : 11|12@0+ (1,0) [0|4095] "" Vector__XXX
+ SG_ ESC_DynamicSlopeAccuracy : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_AVHFunctionSwitch : 5|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_AVHAvailable : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_AVH_Status : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_AVH_DisplayMessageReq : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_BLRequest : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 289 FCTB_ESC3: 8 Vector__XXX
+ SG_ GW_ESC_CheckSum_ESC3 : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ GW_ESC_RollingCount_ESC3 : 51|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ESC_vehicleStandstillValid : 42|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_VehicleStandstill : 53|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_epbRequest : 39|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_wheelDirectionRRValid : 36|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_wheelDirectionRLValid : 37|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_RRWDirection : 47|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_RLWDirection : 45|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_ESCValidity : 43|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_TCSErrorStatus : 41|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_FRWDirection : 35|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_FLWDirection : 33|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_ReqDecreaseTorque : 19|12@0+ (1,0) [0|4095] "" Vector__XXX
+ SG_ ESC_ReqIncreaseTorque : 15|12@0+ (1,0) [0|4095] "" Vector__XXX
+ SG_ ESC_ReqDecreaseTorqueFlag : 7|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_ReqIncreaseTorqueFlag : 6|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_TCSCtlActive : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_ESCAlarmSig : 3|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_ESCWorkStatus : 2|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_keepingGear : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_ESCOFF : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 160 FCTB_ESC2: 8 Vector__XXX
+ SG_ ESC_VehSpdValidFlag : 25|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_VehSpd : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ ESC_RollingCount_ESC2 : 11|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ ESC_HBB_StatusValidity : 39|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_HBB_Status : 38|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ ESC_EBDAlarmSig : 24|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_CheckSum_ESC2 : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ ESC_BrakeOilPress : 7|11@0+ (1,0) [0|2047] "" Vector__XXX
+ SG_ ESC_ABSWorkLable : 19|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_ABSValidity : 26|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESC_ABSAlarmSig : 28|1@0+ (1,0) [0|1] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "GenMsgSendType " ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 2 50000;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 1 1000;
+BA_DEF_ BO_  "GenMsgNrOfRepetitions" INT 1 999999;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","spontaneous","cyclicIfActive","spontaneousWithDelay","cyclicAndSpontaneous","cyclicAndSpontaneousWithDelay","spontaneousWithRepetition","cyclicIfActiveAndSpontaneousWD";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 100000000000;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgSendType " "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "GenMsgCycleTime" 100;
+BA_DEF_DEF_  "GenMsgDelayTime" 1;
+BA_DEF_DEF_  "GenMsgNrOfRepetitions" 1;
+BA_DEF_DEF_  "GenMsgSendType" "spontaneous";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_ "DBName" "GF_liuji";
+BA_ "GenMsgCycleTime" BO_ 1277 500;
+BA_ "GenMsgSendType " BO_ 1277 0;
+BA_ "GenMsgSendType " BO_ 892 0;
+BA_ "GenMsgSendType " BO_ 1023 0;
+BA_ "GenMsgCycleTime" BO_ 1043 500;
+BA_ "GenMsgSendType " BO_ 1043 0;
+BA_ "GenMsgCycleTime" BO_ 870 500;
+BA_ "GenMsgSendType " BO_ 870 0;
+BA_ "GenMsgSendType " BO_ 853 0;
+BA_ "GenMsgSendType " BO_ 802 0;
+BA_ "GenMsgCycleTime" BO_ 1242 1000;
+BA_ "GenMsgSendType " BO_ 1242 0;
+BA_ "GenMsgSendType " BO_ 833 0;
+BA_ "GenMsgSendType " BO_ 828 0;
+BA_ "GenMsgCycleTime" BO_ 570 40;
+BA_ "GenMsgSendType " BO_ 570 0;
+BA_ "GenMsgSendType " BO_ 780 0;
+BA_ "GenMsgCycleTime" BO_ 165 10;
+BA_ "GenMsgSendType " BO_ 165 0;
+BA_ "GenMsgSendType " BO_ 794 0;
+BA_ "GenMsgCycleTime" BO_ 1073 1000;
+BA_ "GenMsgSendType " BO_ 1073 0;
+BA_ "GenMsgCycleTime" BO_ 291 20;
+BA_ "GenMsgSendType " BO_ 291 0;
+BA_ "GenMsgCycleTime" BO_ 289 20;
+BA_ "GenMsgSendType " BO_ 289 0;
+BA_ "GenMsgCycleTime" BO_ 160 10;
+BA_ "GenMsgSendType " BO_ 160 0;
+

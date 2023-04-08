@@ -1,0 +1,10 @@
+{
+    "HeadFile": {
+        "DefType": "pragma"
+    },
+    "Excel.load.type": "default",
+    "Excel.load.CellType": {
+        "BeginCell": "A2",
+        "EndCell": "A1"
+    }
+}
